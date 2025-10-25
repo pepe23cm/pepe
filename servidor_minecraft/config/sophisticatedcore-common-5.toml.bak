@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedstorage:diamond_to_netherite_tier_upgrade|true", "sophisticatedbackpacks:void_upgrade|true", "sophisticatedstorage:limited_barrel_2|true", "sophisticatedstorage:limited_barrel_1|true", "sophisticatedstorage:limited_barrel_4|true", "sophisticatedstorage:limited_barrel_3|true", "sophisticatedbackpacks:advanced_refill_upgrade|true"]
+

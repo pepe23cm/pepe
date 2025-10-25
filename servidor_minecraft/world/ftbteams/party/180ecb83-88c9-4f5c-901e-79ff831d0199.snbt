@@ -1,0 +1,33 @@
+{
+	id: "180ecb83-88c9-4f5c-901e-79ff831d0199"
+	type: "party"
+	owner: "e281505e-0e29-3498-93bc-58d0db1128e4"
+	ranks: {
+		e281505e-0e29-3498-93bc-58d0db1128e4: "owner"
+		8030b484-93cb-3e44-a5c9-97b5258ad3b1: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "angel1965's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF5979"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1761302170764L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"angel1965\"}]}" }
+		{ from: "e281505e-0e29-3498-93bc-58d0db1128e4", date: 1761302170767L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"David\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1761302176168L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"David\"}]}" }
+	]
+	extra: { }
+}

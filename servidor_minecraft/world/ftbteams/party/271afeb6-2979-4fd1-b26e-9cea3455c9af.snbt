@@ -1,0 +1,77 @@
+{
+	id: "271afeb6-2979-4fd1-b26e-9cea3455c9af"
+	type: "party"
+	owner: "89034453-8816-3db5-9097-81f79b656603"
+	ranks: {
+		89034453-8816-3db5-9097-81f79b656603: "owner"
+		ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "LOS MEJORES"
+		"ftbteams:description": "TONTO JESU"
+		"ftbteams:color": "#FF59B0"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1761090992213L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"abeldh\"}]}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761090992222L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"kila\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1761090996970L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"kila\"}]}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761167321056L, text: "{\"text\":\"jesus\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761167327267L, text: "{\"text\":\"por aqui puedes hablar\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761167381645L, text: "{\"text\":\"dale al invetario y donde estan los muñecos\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761167418654L, text: "{\"text\":\"payo come sandwich calvo\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761171029365L, text: "{\"text\":\"tu puedes coger dos mochilas sin silencioso\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761257092233L, text: "{\"text\":\"illo que ha pasao una cosa en familia y sa liao\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761257120078L, text: "{\"text\":\"me lo imaginaba\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761257139558L, text: "{\"text\":\"y he cogio y me he ido\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761257150872L, text: "{\"text\":\"es lo mejor\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761258226922L, text: "{\"text\":\"necesitamos mucha lana\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761260415974L, text: "{\"text\":\"dinamita mucha \"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761261937388L, text: "{\"text\":\"creativo llevalo\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761343497610L, text: "{\"text\":\"illo ven y ponte espectador y busca una zola de nether normal\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761343630457L, text: "{\"text\":\"lo cojemos del crativo?\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761343648312L, text: "{\"text\":\"no illo llevame a una zona de roca normal JAJAJA\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761343678093L, text: "{\"text\":\"O PONMELO Y YO TE DIGO\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761344084412L, text: "{\"text\":\"hazme tp y pon survival\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761344265273L, text: "{\"text\":\"coge oro y hierro\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409561875L, text: "{\"text\":\"que esta en la casa =\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409605962L, text: "{\"text\":\"esta o no?\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761409619163L, text: "{\"text\":\"siiiiii\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409638795L, text: "{\"text\":\"mudanza empiezo a hacer la base aqui que hay un tp\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761409650847L, text: "{\"text\":\"los huevos\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761409656145L, text: "{\"text\":\"no ha visto la entarda\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409668699L, text: "{\"text\":\"da igua pa tener las cosas importantes\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761409684097L, text: "{\"text\":\"ven\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409697896L, text: "{\"text\":\"tp rapido\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761409713258L, text: "{\"text\":\"a mi a ti?\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409751218L, text: "{\"text\":\"esto que es llavaem a la base\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761409774392L, text: "{\"text\":\"ponemos un waystone y quitamos el ancessor\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409810786L, text: "{\"text\":\"vale de mientras yo voy ha hacer la otra base super grande ya tengo el tp ese cogio\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761409816834L, text: "{\"text\":\"vale\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761409853247L, text: "{\"text\":\"mtt en ajustes del mapa y ponte que no eres visible para otros\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409913650L, text: "{\"text\":\"como\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761409921450L, text: "{\"text\":\"illo coge tres bloques de diamante\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761410004914L, text: "{\"text\":\"ABEL RAPIDO  TRES BLOQUES DE DIAMANTE\"}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761410151871L, text: "{\"color\":\"gold\",\"translate\":\"ftbteams.message.kicked\",\"with\":[{\"color\":\"yellow\",\"text\":\"kila\"},{\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbteams info LOSMEJORES#271afeb6\"},\"text\":\"LOS MEJORES\"}]}" }
+		{ from: "89034453-8816-3db5-9097-81f79b656603", date: 1761410170198L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"kila\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1761410175541L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"kila\"}]}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761410261026L, text: "{\"text\":\"NECESITO UN TP\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761410292658L, text: "{\"text\":\" ano no\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761410716210L, text: "{\"text\":\"creo que tenemos el strongol alao porq salen los bichos chicos\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761411238301L, text: "{\"text\":\"illo carteles\"}" }
+		{ from: "ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2", date: 1761411248768L, text: "{\"text\":\"pa poner las cosa\"}" }
+	]
+	extra: { }
+}

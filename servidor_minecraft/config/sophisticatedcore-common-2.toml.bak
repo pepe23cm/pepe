@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:iron_backpack|true", "sophisticatedstorage:iron_shulker_box|true", "sophisticatedbackpacks:auto_smoking_upgrade|true", "sophisticatedbackpacks:tool_swapper_upgrade|true", "sophisticatedstorage:gold_chest|true", "sophisticatedstorage:smelting_upgrade|true", "sophisticatedstorage:advanced_hopper_upgrade|true"]
+

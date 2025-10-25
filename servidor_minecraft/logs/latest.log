@@ -1,0 +1,1174 @@
+[25Oct2025 14:10:29.458] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[25Oct2025 14:10:29.461] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[25Oct2025 14:10:30.569] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/pepe/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2361!/ Service=ModLauncher Env=SERVER
+[25Oct2025 14:10:30.973] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pepe/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[25Oct2025 14:10:30.975] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pepe/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[25Oct2025 14:10:30.976] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pepe/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[25Oct2025 14:10:30.977] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/pepe/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[25Oct2025 14:10:31.284] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[25Oct2025 14:10:31.285] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: /workspaces/pepe/servidor_minecraft/mods/curios-forge-1.19.2-5.1.6.4.jar
+[25Oct2025 14:10:31.286] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[25Oct2025 14:10:33.649] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Oct2025 14:10:33.736] [main/ERROR] [mixin/]: Mixin config justhammers.mixins.json does not specify "minVersion" property
+[25Oct2025 14:10:33.778] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Oct2025 14:10:33.820] [main/WARN] [mixin/]: Reference map 'octolib.refmap.json' for octolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Oct2025 14:10:34.230] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/vanilla.xml
+[25Oct2025 14:10:34.234] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/sophisticated_core.xml
+[25Oct2025 14:10:34.235] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/refinedstorage.xml
+[25Oct2025 14:10:34.237] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/mekanism.xml
+[25Oct2025 14:10:34.239] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ironfurnaces.xml
+[25Oct2025 14:10:34.240] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/ic2.xml
+[25Oct2025 14:10:34.241] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/computercraft.xml
+[25Oct2025 14:10:34.243] [main/INFO] [portb.transformerlib.TransformerLib/]: Loaded transformer transformers/assortedstorage.xml
+[25Oct2025 14:10:34.345] [main/WARN] [mixin/]: Reference map 'ambientsounds.mixins.refmap.json' for ambientsounds.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Oct2025 14:10:34.349] [main/WARN] [mixin/]: Reference map 'justhammers-forge-forge-refmap.json' for justhammers.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Oct2025 14:10:34.368] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[25Oct2025 14:10:35.042] [main/INFO] [portb.biggerstacks.TransformerEngine/]: ae2 is installed, applying patches
+[25Oct2025 14:10:35.042] [main/INFO] [portb.biggerstacks.TransformerEngine/]: ae2 is installed, applying patches
+[25Oct2025 14:10:35.043] [main/INFO] [portb.biggerstacks.TransformerEngine/]: ae2 is installed, applying patches
+[25Oct2025 14:10:35.491] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[25Oct2025 14:10:35.906] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:62) ~[oshi-core-5.8.5.jar%2367!/:5.8.5]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:105) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 20 more
+[25Oct2025 14:10:40.555] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[25Oct2025 14:10:44.223] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[25Oct2025 14:10:44.225] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[25Oct2025 14:10:44.225] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[25Oct2025 14:10:44.225] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[25Oct2025 14:10:44.226] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[25Oct2025 14:10:44.226] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[25Oct2025 14:10:44.227] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[25Oct2025 14:10:44.532] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[25Oct2025 14:10:44.532] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[25Oct2025 14:10:44.545] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[25Oct2025 14:10:44.547] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[25Oct2025 14:10:46.559] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[25Oct2025 14:10:46.610] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[25Oct2025 14:10:46.618] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[25Oct2025 14:10:46.684] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[25Oct2025 14:10:46.686] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[25Oct2025 14:10:46.688] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[25Oct2025 14:10:46.695] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[25Oct2025 14:10:46.698] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[25Oct2025 14:10:46.709] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[25Oct2025 14:10:46.720] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[25Oct2025 14:10:46.725] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[25Oct2025 14:10:46.733] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[25Oct2025 14:10:46.744] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[25Oct2025 14:10:46.747] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[25Oct2025 14:10:46.759] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[25Oct2025 14:10:46.826] [modloading-worker-0/INFO] [FTB Chunks/]: Mod [FTB XMod Compat] not detected. Install it if you want FTB Chunks integration with KubeJS, Game Stages, Waystones, FTB Ranks/Luckperms and/or Common Protection API
+[25Oct2025 14:10:50.222] [main/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/particle/TextureSheetParticle for class it/hurts/sskirillss/octolib/particle/BasicColoredParticle in classloader cpw.mods.modlauncher.TransformingClassLoader@484149eb on thread Thread[main,5,main]
+[25Oct2025 14:10:50.223] [main/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.particle.TextureSheetParticle
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:92) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.3.jar%2349!/:6.0.3+6.0.3+master.039e4ea9]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2324) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271) ~[?:?]
+	at it.hurts.sskirillss.octolib.particle.BasicColoredParticle$Options.<clinit>(BasicColoredParticle.java:270) ~[octolib-1.19.2-0.3.jar%23203!/:1.19.2-0.3]
+	at it.hurts.sskirillss.octolib.particle.BasicColoredParticle$Factory$Type.<init>(BasicColoredParticle.java:328) ~[octolib-1.19.2-0.3.jar%23203!/:1.19.2-0.3]
+	at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:388) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:330) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2349!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.19.2-43.4.2.jar%23223!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$postEventWithWrapInModOrder$35(ModLoader.java:315) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:313) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:341) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:207) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:207) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[25Oct2025 14:10:50.330] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/structure_processor / minecraft:capped]' to registry
+[25Oct2025 14:10:50.330] [main/ERROR] [net.minecraft.Util/]: Adding duplicate value 'com.min01.archaeology.init.ArchaeologyStructureProcessorType$$Lambda$13384/0x00007bfbb19dab08@398c1a7' to registry
+[25Oct2025 14:10:51.222] [main/INFO] [evilcraft/]: 2205 possible Broom base combinations are ready for flying!
+[25Oct2025 14:10:52.092] [modloading-worker-0/INFO] [evilcraft/]: Registered packet handler.
+[25Oct2025 14:10:52.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[25Oct2025 14:10:52.310] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit/]: Initialized
+[25Oct2025 14:10:52.326] [modloading-worker-0/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[25Oct2025 14:10:52.421] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.20.2 Target: null
+[25Oct2025 14:10:52.422] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.2-develop/update.json
+[25Oct2025 14:10:52.438] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[25Oct2025 14:10:52.675] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.19.2-1.5.1-forge Target: null
+[25Oct2025 14:10:52.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.19.2
+[25Oct2025 14:10:52.819] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 17.2.8 Target: 17.2.8
+[25Oct2025 14:10:52.819] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[25Oct2025 14:10:52.995] [main/INFO] [journeymap/]: Initializing Packet Registries
+[25Oct2025 14:10:53.004] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2368!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2368!/:?]
+	... 6 more
+[25Oct2025 14:10:53.005] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[25Oct2025 14:10:53.101] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
+[25Oct2025 14:10:53.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/evilcraft.json
+[25Oct2025 14:10:53.218] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 28 compatible attributes.
+[25Oct2025 14:10:53.220] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 28 values from config.
+[25Oct2025 14:10:53.217] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [evilcraft] Found status: UP_TO_DATE Current: 1.2.48 Target: null
+[25Oct2025 14:10:53.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19.2
+[25Oct2025 14:10:53.227] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[25Oct2025 14:10:53.233] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 28 entries.
+[25Oct2025 14:10:53.234] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 28 attributes.
+[25Oct2025 14:10:53.242] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[25Oct2025 14:10:53.243] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[25Oct2025 14:10:53.244] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[25Oct2025 14:10:53.245] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 16.3.20 Target: 16.3.20
+[25Oct2025 14:10:53.246] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Oct2025 14:10:53.257] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[25Oct2025 14:10:53.263] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[25Oct2025 14:10:53.265] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[25Oct2025 14:10:53.284] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.easyvillagers.integration.waila.PluginEasyVillagers
+[25Oct2025 14:10:53.286] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[25Oct2025 14:10:53.287] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at org.cyclops.integrateddynamicscompat.modcompat.jade.JadeIntegratedDynamicsConfig
+[25Oct2025 14:10:53.293] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.geforcemods.securitycraft.compat.waila.JadeDataProvider
+[25Oct2025 14:10:53.295] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[25Oct2025 14:10:53.423] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[25Oct2025 14:10:53.424] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[25Oct2025 14:10:53.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.2.1518 Target: null
+[25Oct2025 14:10:53.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commoncapabilities] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/common-capabilities.json
+[25Oct2025 14:10:53.597] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commoncapabilities] Found status: UP_TO_DATE Current: 2.9.8 Target: null
+[25Oct2025 14:10:53.597] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Starting version check at https://update.maxhenkel.de/forge/easy_villagers
+[25Oct2025 14:10:53.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [easy_villagers] Found status: AHEAD Current: 1.19.2-1.1.23 Target: null
+[25Oct2025 14:10:53.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[25Oct2025 14:10:53.890] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.11-22 Target: null
+[25Oct2025 14:10:53.890] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integrateddynamics] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-dynamics.json
+[25Oct2025 14:10:53.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integrateddynamics] Found status: UP_TO_DATE Current: 1.27.6 Target: null
+[25Oct2025 14:10:53.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[25Oct2025 14:10:53.952] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.6.1 Target: null
+[25Oct2025 14:10:53.953] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[25Oct2025 14:10:54.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.3.9 Target: null
+[25Oct2025 14:10:54.039] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.2-develop/update.json
+[25Oct2025 14:10:54.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.19.2-1.0.0-forge Target: null
+[25Oct2025 14:10:54.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[25Oct2025 14:10:54.211] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2368!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.2.jar%23222!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2368!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2368!/:?]
+	... 6 more
+[25Oct2025 14:10:57.110] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Oct2025 14:11:00.301] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/pepe/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23221!/assets/.mcassetsroot' uses unexpected schema
+[25Oct2025 14:11:00.301] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/pepe/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23221!/data/.mcassetsroot' uses unexpected schema
+[25Oct2025 14:11:05.464] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/compat/ae2/deepslate_quartz_ore
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:deepslate_quartz_ore'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[25Oct2025 14:11:05.573] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[25Oct2025 14:11:05.599] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[25Oct2025 14:11:05.700] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[25Oct2025 14:11:05.714] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/compat/ae2/quartz_ore
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:quartz_ore'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.2.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2352!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[25Oct2025 14:11:05.721] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[25Oct2025 14:11:05.763] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[25Oct2025 14:11:05.799] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[25Oct2025 14:11:05.801] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[25Oct2025 14:11:05.805] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[25Oct2025 14:11:05.810] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 59 recipes
+[25Oct2025 14:11:05.810] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[25Oct2025 14:11:06.308] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[25Oct2025 14:11:06.446] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:adventure/craft_decorated_pot_using_only_sherds: Invalid criterion trigger: minecraft:recipe_crafted
+[25Oct2025 14:11:06.545] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5102 advancements
+[25Oct2025 14:11:06.550] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[25Oct2025 14:11:06.560] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Structure Repaletter Manager has loaded 0 repaletters
+[25Oct2025 14:11:06.572] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
+[25Oct2025 14:11:06.572] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[25Oct2025 14:11:06.574] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[25Oct2025 14:11:09.318] [main/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[25Oct2025 14:11:09.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[25Oct2025 14:11:09.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Oct2025 14:11:09.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Oct2025 14:11:09.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Oct2025 14:11:09.659] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Oct2025 14:11:09.688] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Oct2025 14:11:09.776] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Oct2025 14:11:09.776] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Oct2025 14:11:09.776] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Oct2025 14:11:09.777] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Oct2025 14:11:09.801] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Oct2025 14:11:09.802] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Oct2025 14:11:09.803] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[25Oct2025 14:11:10.038] [Server thread/INFO] [FTB Teams/]: loaded team data: 4 known players, 6 teams total
+[25Oct2025 14:11:10.059] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[25Oct2025 14:11:10.060] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[25Oct2025 14:11:10.060] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[25Oct2025 14:11:10.061] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[25Oct2025 14:11:10.061] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[25Oct2025 14:11:10.062] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[25Oct2025 14:11:10.062] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[25Oct2025 14:11:10.063] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[25Oct2025 14:11:10.063] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[25Oct2025 14:11:10.063] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[25Oct2025 14:11:10.067] [Server thread/INFO] [portb.configlib.ConfigLib/]: Reading stacksize ruleset
+[25Oct2025 14:11:10.074] [Config file watcher thread/INFO] [portb.configlib.ConfigLib/]: Starting config file watcher
+[25Oct2025 14:11:10.086] [Server thread/INFO] [Framework/]: Loading server configs...
+[25Oct2025 14:11:10.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Oct2025 14:11:10.698] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from interface com.hollingsworth.arsnouveau.common.entity.IFollowingSummon
+[25Oct2025 14:11:11.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Oct2025 14:11:18.658] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.674] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.678] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.683] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.688] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.689] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.697] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.700] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.702] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.705] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.708] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.710] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.713] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.715] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.718] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:18.768] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Oct2025 14:11:19.267] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[25Oct2025 14:11:19.767] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[25Oct2025 14:11:20.166] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8899 ms
+[25Oct2025 14:11:20.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.379s)! For help, type "help"
+[25Oct2025 14:11:20.233] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Oct2025 14:11:20.284] [Server thread/INFO] [net.stardustlabs.terralith.Terralith/]: Thanks for choosing Terralith!
+[25Oct2025 14:11:20.302] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[25Oct2025 14:11:20.316] [Server thread/INFO] [evilcraft/]: Loading infobook /data/evilcraft/info/book.xml
+[25Oct2025 14:11:20.353] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:witherer has no valid items
+[25Oct2025 14:11:20.353] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:hungerer has no valid items
+[25Oct2025 14:11:20.354] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:kamikaze has no valid items
+[25Oct2025 14:11:20.354] [Server thread/WARN] [evilcraft/]: Invalid appendix info_book.evilcraft.second_age.tools.broom from mod evilcraft in an infobook: The broom modifier evilcraft:withershield has no valid items
+[25Oct2025 14:11:20.392] [Server thread/INFO] [integrateddynamics/]: Loading infobook /data/integrateddynamics/info/on_the_dynamics_of_integration.xml
+[25Oct2025 14:11:20.419] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[25Oct2025 14:11:47.076] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[25Oct2025 14:11:47.255] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@33814c0f
+[25Oct2025 14:11:47.314] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: abeldh[/127.231.116.35:37259] logged in with entity id 618 at (-810.1374999880791, -2.0, -1244.2869849122683)
+[25Oct2025 14:11:47.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh joined the game
+[25Oct2025 14:11:47.570] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3d0a5b2a
+[25Oct2025 14:11:47.723] [Server thread/INFO] [Jade/]: Syncing config to abeldh (89034453-8816-3db5-9097-81f79b656603)
+[25Oct2025 14:11:47.738] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3667d75d
+[25Oct2025 14:11:51.871] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4697ms or 93 ticks behind
+[25Oct2025 14:16:11.049] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@9929606
+[25Oct2025 14:16:11.068] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kila[/127.236.175.113:56141] logged in with entity id 2050 at (-784.0358368791885, -2.0, -1244.0121087995299)
+[25Oct2025 14:16:11.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila joined the game
+[25Oct2025 14:16:11.212] [Server thread/INFO] [Jade/]: Syncing config to kila (ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2)
+[25Oct2025 14:16:11.215] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@14263e4a
+[25Oct2025 14:17:10.991] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@70e53f4b
+[25Oct2025 14:17:11.002] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: David[/127.11.239.67:46533] logged in with entity id 2781 at (-374.2391800487408, 66.41999998688698, 6435.515814660365)
+[25Oct2025 14:17:11.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David joined the game
+[25Oct2025 14:17:11.078] [Server thread/INFO] [Jade/]: Syncing config to David (8030b484-93cb-3e44-a5c9-97b5258ad3b1)
+[25Oct2025 14:17:11.082] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@e0eba2c
+[25Oct2025 14:17:14.656] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3632ms or 72 ticks behind
+[25Oct2025 14:19:59.885] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/4426, l='ServerLevel[world]', x=-32.30, y=64.00, z=6428.50] died, message: 'Villager was slain by Zombie'
+[25Oct2025 14:23:11.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David has made the advancement [We Need to Go Deeper]
+[25Oct2025 14:26:12.659] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2335ms or 46 ticks behind
+[25Oct2025 14:28:22.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [Hostile Paradise]
+[25Oct2025 14:28:44.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Take Aim]
+[25Oct2025 14:33:17.249] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[25Oct2025 14:33:35.195] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2972ms or 59 ticks behind
+[25Oct2025 14:33:52.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [To Infinity and Beyond!]
+[25Oct2025 14:33:58.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [To Infinity and Beyond!]
+[25Oct2025 14:39:21.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 14:39:29.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 14:41:08.547] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abeldh was kicked for floating too long!
+[25Oct2025 14:41:08.548] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abeldh lost connection: Flying is not enabled on this server
+[25Oct2025 14:41:08.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh left the game
+[25Oct2025 14:41:08.601] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[25Oct2025 14:41:45.206] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@74bec0f4
+[25Oct2025 14:41:45.215] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: abeldh[/127.231.116.35:53817] logged in with entity id 18534 at (-756.6241442643849, 202.73051628484632, -1246.392908990206)
+[25Oct2025 14:41:45.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh joined the game
+[25Oct2025 14:41:45.315] [Server thread/INFO] [Jade/]: Syncing config to abeldh (89034453-8816-3db5-9097-81f79b656603)
+[25Oct2025 14:41:45.318] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@73c4587e
+[25Oct2025 14:41:54.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh fell from a high place
+[25Oct2025 14:41:54.835] [Server thread/INFO] [tombstone/]: The player abeldh has successfully been saved
+[25Oct2025 14:43:18.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [Exotic Hardware]
+[25Oct2025 14:45:01.998] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/20999, l='ServerLevel[world]', x=34.50, y=118.50, z=6336.50]
+[25Oct2025 14:45:01.998] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/21000, l='ServerLevel[world]', x=33.50, y=118.50, z=6336.50]
+[25Oct2025 14:45:23.290] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/21091, l='ServerLevel[world]', x=37.50, y=115.50, z=6361.50]
+[25Oct2025 14:45:23.291] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/21092, l='ServerLevel[world]', x=37.50, y=115.50, z=6360.50]
+[25Oct2025 14:45:32.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David has made the advancement [Not Today, Thank You]
+[25Oct2025 14:47:18.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Baby Food]
+[25Oct2025 14:47:53.529] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/9169, l='ServerLevel[world]', x=-0.70, y=64.00, z=6471.81] died, message: 'Librarian was poked to death by a sweet berry bush'
+[25Oct2025 14:53:06.231] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/9144, l='ServerLevel[world]', x=-2.30, y=108.00, z=6437.11] died, message: 'Butcher was slain by Zombie'
+[25Oct2025 14:55:07.059] [Worker-Main-3/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-681, y=40, z=-1767}
+[25Oct2025 14:55:43.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [Baby Food]
+[25Oct2025 14:57:15.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Exotic Hardware]
+[25Oct2025 14:57:16.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [Cold as Ice]
+[25Oct2025 14:57:33.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has reached the goal [Expert Tasting]
+[25Oct2025 14:57:38.599] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/26771, l='ServerLevel[world]', x=-646.50, y=53.50, z=-1394.50]
+[25Oct2025 14:59:14.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh was crushed by Slider
+[25Oct2025 14:59:14.705] [Server thread/INFO] [tombstone/]: The player abeldh has successfully been saved
+[25Oct2025 15:00:50.098] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: David lost connection: Disconnected
+[25Oct2025 15:00:50.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David left the game
+[25Oct2025 15:03:19.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has reached the goal [Like a Bossaru!]
+[25Oct2025 15:03:19.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has reached the goal [Like a Bossaru!]
+[25Oct2025 15:03:33.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Challenger to the Throne]
+[25Oct2025 15:09:37.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [Challenger to the Throne]
+[25Oct2025 15:11:49.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Don't Count Your Moas...]
+[25Oct2025 15:12:31.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 15:12:43.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:12:48.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported kila to abeldh]
+[25Oct2025 15:13:21.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 15:13:55.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:14:38.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported kila to abeldh]
+[25Oct2025 15:20:40.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [Don't Count Your Moas...]
+[25Oct2025 15:23:13.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 15:23:22.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:28:17.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has reached the goal [Dethroned]
+[25Oct2025 15:28:17.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has reached the goal [Dethroned]
+[25Oct2025 15:28:34.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has reached the goal [Earning your Wings]
+[25Oct2025 15:28:35.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has reached the goal [Earning your Wings]
+[25Oct2025 15:28:35.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [Battle Hardened]
+[25Oct2025 15:29:05.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 15:29:31.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to -255.500000, 117.190155, -2367.500000]
+[25Oct2025 15:29:48.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to -415.500000, 117.190155, -2703.500000]
+[25Oct2025 15:30:18.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to -415.500000, 62.820815, -3423.500000]
+[25Oct2025 15:30:46.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:30:50.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported kila to abeldh]
+[25Oct2025 15:31:48.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 15:32:01.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to -415.500000, 115.809487, -3423.500000]
+[25Oct2025 15:32:11.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to -1087.500000, 122.553819, -3887.500000]
+[25Oct2025 15:32:26.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to -1599.500000, 127.809467, -3279.500000]
+[25Oct2025 15:32:41.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to -1439.500000, 127.809467, -3359.500000]
+[25Oct2025 15:33:02.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to kila]
+[25Oct2025 15:33:05.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:33:40.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to kila]
+[25Oct2025 15:34:02.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 15:34:08.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:45:57.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 15:46:04.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:48:01.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 15:49:01.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:52:41.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 15:53:20.588] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/34051, l='ServerLevel[world]', x=-388.50, y=116.50, z=-3399.50]
+[25Oct2025 15:53:20.589] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/34052, l='ServerLevel[world]', x=-389.50, y=116.50, z=-3400.50]
+[25Oct2025 15:53:58.691] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7d3032c1
+[25Oct2025 15:53:58.701] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: angel1965[/127.212.73.43:35407] logged in with entity id 34110 at (36.43534432349824, 75.0, 6470.294300246209)
+[25Oct2025 15:53:58.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 joined the game
+[25Oct2025 15:53:58.744] [Server thread/INFO] [Jade/]: Syncing config to angel1965 (e281505e-0e29-3498-93bc-58d0db1128e4)
+[25Oct2025 15:53:58.747] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59b1aa5c
+[25Oct2025 15:54:00.936] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2162ms or 43 ticks behind
+[25Oct2025 15:55:09.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 15:57:28.640] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36139, l='ServerLevel[world]', x=-382.50, y=116.50, z=-3398.50]
+[25Oct2025 15:57:28.640] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36140, l='ServerLevel[world]', x=-381.50, y=116.50, z=-3399.50]
+[25Oct2025 15:57:28.640] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36141, l='ServerLevel[world]', x=-382.50, y=116.50, z=-3400.50]
+[25Oct2025 15:57:28.879] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36143, l='ServerLevel[world]', x=-390.50, y=116.50, z=-3404.50]
+[25Oct2025 15:57:28.880] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36144, l='ServerLevel[world]', x=-390.50, y=116.50, z=-3405.50]
+[25Oct2025 15:57:28.880] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36145, l='ServerLevel[world]', x=-392.50, y=116.50, z=-3405.50]
+[25Oct2025 15:57:35.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila was slain by Fire Minion
+[25Oct2025 15:57:35.800] [Server thread/INFO] [tombstone/]: The player kila has successfully been saved
+[25Oct2025 15:57:58.140] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36484, l='ServerLevel[world]', x=-386.50, y=116.50, z=-3397.50]
+[25Oct2025 15:57:58.141] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36485, l='ServerLevel[world]', x=-388.50, y=116.50, z=-3398.50]
+[25Oct2025 15:57:58.141] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/36486, l='ServerLevel[world]', x=-388.50, y=116.50, z=-3397.50]
+[25Oct2025 16:01:31.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has reached the goal [Extinguished]
+[25Oct2025 16:01:31.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has reached the goal [Extinguished]
+[25Oct2025 16:01:53.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has reached the goal [Fireproof]
+[25Oct2025 16:01:53.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Cold as Ice]
+[25Oct2025 16:01:54.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has reached the goal [Fireproof]
+[25Oct2025 16:01:54.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Cool Jewelery!]
+[25Oct2025 16:02:56.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 16:03:36.419] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10245ms or 204 ticks behind
+[25Oct2025 16:03:53.881] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kila was kicked for floating too long!
+[25Oct2025 16:03:53.940] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kila lost connection: Flying is not enabled on this server
+[25Oct2025 16:03:53.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila left the game
+[25Oct2025 16:03:59.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:04:09.425] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@109ae643
+[25Oct2025 16:04:09.441] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: kila[/127.236.175.113:33867] logged in with entity id 38307 at (-387.25055311877423, 160.32346386745738, -3429.7146075624833)
+[25Oct2025 16:04:09.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila joined the game
+[25Oct2025 16:04:09.515] [Server thread/INFO] [Jade/]: Syncing config to kila (ec8b33dc-38ff-3963-9ab1-0eb180d3c9f2)
+[25Oct2025 16:04:09.517] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59da1d91
+[25Oct2025 16:04:15.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila fell from a high place
+[25Oct2025 16:04:15.475] [Server thread/INFO] [tombstone/]: The player kila has successfully been saved
+[25Oct2025 16:04:15.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported kila to abeldh]
+[25Oct2025 16:04:20.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported kila to abeldh]
+[25Oct2025 16:06:44.887] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved wrongly! 0.595886890811471
+[25Oct2025 16:06:44.918] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved wrongly! 0.764062180725432
+[25Oct2025 16:06:52.196] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/40576, l='ServerLevel[world]', x=-448.50, y=64.50, z=-3337.50]
+[25Oct2025 16:06:52.196] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/40577, l='ServerLevel[world]', x=-447.50, y=64.50, z=-3339.50]
+[25Oct2025 16:07:15.726] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2653ms or 53 ticks behind
+[25Oct2025 16:07:15.763] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -1.9614957035881275,0.0,10.213348273357497
+[25Oct2025 16:07:15.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.0369353873124396,0.0,10.60616984101489
+[25Oct2025 16:07:15.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.112375017214049,0.0,10.998991419184676
+[25Oct2025 16:07:15.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.1878145986752315,0.0,11.391813006815482
+[25Oct2025 16:07:15.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.26325413654007,0.0,11.784634602960978
+[25Oct2025 16:07:15.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.3386936351681697,0.0,12.177456206769875
+[25Oct2025 16:07:15.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.4141330984832052,0.0,12.570277817475926
+[25Oct2025 16:07:15.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.489572530016517,0.0,12.963099434389733
+[25Oct2025 16:07:15.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.56501193294622,0.0,13.35592105689011
+[25Oct2025 16:07:15.767] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.6404513101327325,0.0,13.748742684418175
+[25Oct2025 16:07:15.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.715890664150322,0.0,14.141564316471431
+[25Oct2025 16:07:15.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.791329997315927,0.0,14.534385952597404
+[25Oct2025 16:07:15.768] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.8667693117147337,0.0,14.927207592389095
+[25Oct2025 16:07:15.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.9422086092233712,0.0,15.320029235479524
+[25Oct2025 16:07:15.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.0176478915309417,0.0,15.712850881538998
+[25Oct2025 16:07:15.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.093087160157495,0.0,16.105672530270567
+[25Oct2025 16:07:15.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.1685264164711384,0.0,16.49849418140684
+[25Oct2025 16:07:15.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.2439656617031574,0.0,16.89131583470771
+[25Oct2025 16:07:15.770] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.319404896961771,0.0,17.284137489956265
+[25Oct2025 16:07:15.772] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.3948441232442406,0.0,17.67695914695787
+[25Oct2025 16:07:15.772] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.470283341448237,0.0,18.069780805537448
+[25Oct2025 16:07:15.772] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.545722552381619,0.0,18.462602465537202
+[25Oct2025 16:07:15.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.6211617567714143,0.0,18.855424126814796
+[25Oct2025 16:07:15.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.696600955271947,0.0,19.2482457892429
+[25Oct2025 16:07:15.773] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.772040148472229,0.0,19.64106745270601
+[25Oct2025 16:07:15.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.847479336902211,0.0,20.033889117100898
+[25Oct2025 16:07:15.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.92291852103898,0.0,20.42671078233434
+[25Oct2025 16:07:15.774] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -3.998357701311818,0.0,20.819532448322207
+[25Oct2025 16:07:15.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -4.073796878107146,0.0,21.212354114989466
+[25Oct2025 16:07:15.775] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -4.149236051772675,0.0,21.605175782267906
+[25Oct2025 16:07:15.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Boat (vehicle of kila) moved too quickly! -2.3386192625605418,0.0,12.177470732716301
+[25Oct2025 16:07:20.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 16:07:22.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:08:35.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kila moved too quickly! 0.4554541616050187,1.0013359791121417,10.167880604014044
+[25Oct2025 16:08:35.541] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2217ms or 44 ticks behind
+[25Oct2025 16:13:35.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 16:13:43.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:14:37.427] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4903ms or 98 ticks behind
+[25Oct2025 16:16:43.389] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/51509, l='ServerLevel[world]', x=-546.50, y=3.50, z=-1856.50]
+[25Oct2025 16:17:10.540] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/52149, l='ServerLevel[world]', x=-535.50, y=-7.50, z=-1862.50]
+[25Oct2025 16:18:37.436] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/53843, l='ServerLevel[world]', x=-530.50, y=-13.50, z=-1900.50]
+[25Oct2025 16:19:39.961] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 16:19:46.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:19:55.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 16:20:03.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:20:12.986] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/56547, l='ServerLevel[world]', x=-506.50, y=-27.50, z=-1900.50]
+[25Oct2025 16:21:09.588] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/57774, l='ServerLevel[world]', x=-432.50, y=-35.50, z=-1929.50]
+[25Oct2025 16:21:47.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 16:21:58.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:24:09.337] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/59341, l='ServerLevel[world]', x=-754.50, y=0.50, z=-1263.50]
+[25Oct2025 16:24:09.337] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/59342, l='ServerLevel[world]', x=-753.50, y=0.50, z=-1262.50]
+[25Oct2025 16:24:19.685] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/59437, l='ServerLevel[world]', x=-500.50, y=-32.50, z=-1826.50]
+[25Oct2025 16:24:26.190] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/59467, l='ServerLevel[world]', x=-751.50, y=-8.50, z=-1301.50]
+[25Oct2025 16:24:32.383] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/59502, l='ServerLevel[world]', x=-745.50, y=-8.50, z=-1293.50]
+[25Oct2025 16:24:32.384] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/59503, l='ServerLevel[world]', x=-746.50, y=-8.50, z=-1293.50]
+[25Oct2025 16:24:32.384] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/59504, l='ServerLevel[world]', x=-745.50, y=-8.50, z=-1292.50]
+[25Oct2025 16:24:50.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 was doomed to fall by abeldh
+[25Oct2025 16:24:50.556] [Server thread/INFO] [tombstone/]: The player angel1965 has successfully been saved
+[25Oct2025 16:24:54.128] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2404ms or 48 ticks behind
+[25Oct2025 16:25:05.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 has reached the goal [Here They Come]
+[25Oct2025 16:26:50.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 16:26:54.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:27:15.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 has reached the goal [Bone Crusher]
+[25Oct2025 16:28:12.541] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/61606, l='ServerLevel[world]', x=-773.50, y=-34.50, z=-1351.50]
+[25Oct2025 16:28:12.541] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/61607, l='ServerLevel[world]', x=-773.50, y=-34.50, z=-1350.50]
+[25Oct2025 16:28:38.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <kila> yo a ti
+[25Oct2025 16:28:44.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported kila to abeldh]
+[25Oct2025 16:29:56.948] [Server thread/INFO] [journeymap/]: mp (FileLoaded) Setting config file to version "5.9.8": journeymap.server.mp.config
+[25Oct2025 16:31:47.456] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3582ms or 71 ticks behind
+[25Oct2025 16:33:53.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 16:34:54.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:35:46.466] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=19, y=85, z=946} BlockPos{x=142, y=64, z=1026}
+[25Oct2025 16:35:46.515] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=19, y=85, z=946} BlockPos{x=142, y=64, z=1026}
+[25Oct2025 16:37:03.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set 1 experience points on kila]
+[25Oct2025 16:37:12.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set 1 experience levels on kila]
+[25Oct2025 16:37:34.877] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
+[25Oct2025 16:38:21.659] [Server thread/INFO] [FTB Chunks/]: FTB Chunks server config updated from client by player abeldh
+[25Oct2025 16:38:21.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 tried to swim in lava to escape Hoglin
+[25Oct2025 16:38:21.713] [Server thread/INFO] [tombstone/]: The player angel1965 has successfully been saved
+[25Oct2025 16:38:25.212] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2388ms or 47 ticks behind
+[25Oct2025 16:39:20.061] [Server thread/INFO] [FTB Chunks/]: FTB Chunks server config updated from client by player abeldh
+[25Oct2025 16:39:38.601] [Server thread/INFO] [FTB Chunks/]: FTB Chunks server config updated from client by player abeldh
+[25Oct2025 16:39:57.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila has made the advancement [First Age]
+[25Oct2025 16:40:40.156] [Server thread/INFO] [FTB Chunks/]: FTB Chunks server config updated from client by player abeldh
+[25Oct2025 16:42:11.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Teleported abeldh to kila]
+[25Oct2025 16:43:30.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Config for waystones of type SERVER not found]
+[25Oct2025 16:43:34.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Config for waystones of type COMMON found at waystones-common.toml]
+[25Oct2025 16:44:17.597] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/pepe/servidor_minecraft/config/waystones-common.toml is not correct. Correcting
+[25Oct2025 16:44:19.415] [Thread-0/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/pepe/servidor_minecraft/config/waystones-common.toml is not correct. Correcting
+[25Oct2025 16:44:29.907] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=273, y=38, z=907} BlockPos{x=273, y=39, z=905}
+[25Oct2025 16:45:14.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Reloading!]
+[25Oct2025 16:45:15.660] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/compat/ae2/deepslate_quartz_ore
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:deepslate_quartz_ore'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%2372!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:240) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[25Oct2025 16:45:15.688] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[25Oct2025 16:45:15.695] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[25Oct2025 16:45:15.740] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[25Oct2025 16:45:15.750] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/compat/ae2/quartz_ore
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:quartz_ore'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%2372!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:240) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:725) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[25Oct2025 16:45:15.754] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[25Oct2025 16:45:15.789] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[25Oct2025 16:45:15.822] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[25Oct2025 16:45:15.823] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[25Oct2025 16:45:15.828] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[25Oct2025 16:45:15.833] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 59 recipes
+[25Oct2025 16:45:15.837] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[25Oct2025 16:45:16.211] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[25Oct2025 16:45:16.285] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:adventure/craft_decorated_pot_using_only_sherds: Invalid criterion trigger: minecraft:recipe_crafted
+[25Oct2025 16:45:16.334] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5102 advancements
+[25Oct2025 16:45:16.336] [Server thread/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[25Oct2025 16:45:16.337] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Structure Repaletter Manager has loaded 0 repaletters
+[25Oct2025 16:45:16.337] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
+[25Oct2025 16:45:16.337] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[25Oct2025 16:45:16.338] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[25Oct2025 16:45:18.812] [Server thread/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[25Oct2025 16:45:18.857] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@73c4587e
+[25Oct2025 16:45:18.862] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@e0eba2c
+[25Oct2025 16:45:18.866] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3667d75d
+[25Oct2025 16:45:18.882] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@74bec0f4
+[25Oct2025 16:45:18.901] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7d3032c1
+[25Oct2025 16:45:18.916] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@109ae643
+[25Oct2025 16:45:18.925] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59da1d91
+[25Oct2025 16:45:18.930] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3d0a5b2a
+[25Oct2025 16:45:18.935] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@14263e4a
+[25Oct2025 16:45:18.940] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59b1aa5c
+[25Oct2025 16:45:18.961] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4488ms or 89 ticks behind
+[25Oct2025 16:45:38.495] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=263, y=38, z=859} BlockPos{x=260, y=37, z=859}
+[25Oct2025 16:45:38.545] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=263, y=38, z=859} BlockPos{x=260, y=37, z=859}
+[25Oct2025 16:47:12.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 16:47:23.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 tried to swim in lava
+[25Oct2025 16:47:23.350] [Server thread/INFO] [tombstone/]: The player angel1965 has successfully been saved
+[25Oct2025 16:49:56.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 burned to death
+[25Oct2025 16:49:56.601] [Server thread/INFO] [tombstone/]: The player angel1965 has successfully been saved
+[25Oct2025 16:50:00.482] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2159ms or 43 ticks behind
+[25Oct2025 16:50:17.056] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5df32a45
+[25Oct2025 16:50:17.066] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: David[/127.11.239.67:48605] logged in with entity id 78789 at (47.89058253467831, 71.5, 6471.067273769889)
+[25Oct2025 16:50:17.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David joined the game
+[25Oct2025 16:50:17.178] [Server thread/INFO] [Jade/]: Syncing config to David (8030b484-93cb-3e44-a5c9-97b5258ad3b1)
+[25Oct2025 16:50:17.179] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5b9b8151
+[25Oct2025 16:50:58.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has completed the challenge [Serious Dedication]
+[25Oct2025 16:52:29.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 16:52:33.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 16:54:16.904] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-13, y=82, z=861} BlockPos{x=-13, y=81, z=861}
+[25Oct2025 16:54:16.951] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-13, y=82, z=861} BlockPos{x=-13, y=81, z=861}
+[25Oct2025 16:54:17.002] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-13, y=82, z=861} BlockPos{x=-13, y=81, z=861}
+[25Oct2025 16:54:17.051] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-13, y=82, z=861} BlockPos{x=-13, y=81, z=861}
+[25Oct2025 16:54:17.102] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-13, y=82, z=861} BlockPos{x=-13, y=81, z=861}
+[25Oct2025 16:55:10.551] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=406, y=12, z=735} BlockPos{x=407, y=14, z=736}
+[25Oct2025 16:55:29.853] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-5, y=110, z=865} BlockPos{x=-5, y=106, z=866}
+[25Oct2025 16:55:29.904] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-5, y=110, z=865} BlockPos{x=-5, y=106, z=866}
+[25Oct2025 16:55:55.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 burned to death
+[25Oct2025 16:55:55.664] [Server thread/INFO] [tombstone/]: The player angel1965 has successfully been saved
+[25Oct2025 16:56:10.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=17, y=105, z=876} BlockPos{x=17, y=106, z=876}
+[25Oct2025 16:57:50.853] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=394, y=13, z=780} BlockPos{x=393, y=12, z=780}
+[25Oct2025 16:57:50.906] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=394, y=13, z=780} BlockPos{x=393, y=12, z=780}
+[25Oct2025 17:00:21.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 has completed the challenge [Hot Tourist Destinations]
+[25Oct2025 17:00:33.799] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[25Oct2025 17:00:51.550] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2776ms or 55 ticks behind
+[25Oct2025 17:01:46.399] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-27, y=67, z=832} BlockPos{x=-27, y=67, z=833}
+[25Oct2025 17:03:18.451] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-30, y=43, z=864} BlockPos{x=-30, y=44, z=865}
+[25Oct2025 17:03:18.497] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-30, y=43, z=864} BlockPos{x=-30, y=44, z=865}
+[25Oct2025 17:03:18.557] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-30, y=43, z=864} BlockPos{x=-30, y=44, z=865}
+[25Oct2025 17:03:18.596] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-30, y=43, z=864} BlockPos{x=-30, y=44, z=865}
+[25Oct2025 17:04:11.659] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=52, y=21, z=817} BlockPos{x=52, y=22, z=818}
+[25Oct2025 17:04:11.709] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=52, y=21, z=817} BlockPos{x=52, y=22, z=818}
+[25Oct2025 17:04:11.759] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=52, y=21, z=817} BlockPos{x=52, y=22, z=818}
+[25Oct2025 17:04:11.810] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=52, y=21, z=817} BlockPos{x=52, y=22, z=818}
+[25Oct2025 17:04:19.396] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:19.451] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:19.497] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:19.546] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:19.597] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:19.648] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:19.698] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:19.748] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:19.803] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-40, y=51, z=858} BlockPos{x=-40, y=50, z=857}
+[25Oct2025 17:04:22.502] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=44, y=28, z=819} BlockPos{x=44, y=29, z=819}
+[25Oct2025 17:04:22.554] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=44, y=28, z=819} BlockPos{x=44, y=29, z=819}
+[25Oct2025 17:04:22.606] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=44, y=28, z=819} BlockPos{x=44, y=29, z=819}
+[25Oct2025 17:04:22.658] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=44, y=28, z=819} BlockPos{x=44, y=29, z=819}
+[25Oct2025 17:04:22.709] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=44, y=28, z=819} BlockPos{x=44, y=29, z=819}
+[25Oct2025 17:04:25.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:04:57.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 17:05:08.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Fwoomp!]
+[25Oct2025 17:05:10.148] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: kila lost connection: Disconnected
+[25Oct2025 17:05:10.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: kila left the game
+[25Oct2025 17:05:10.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 burned to death
+[25Oct2025 17:05:10.359] [Server thread/INFO] [tombstone/]: The player angel1965 has successfully been saved
+[25Oct2025 17:05:46.345] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-29, y=75, z=850} BlockPos{x=-28, y=73, z=850}
+[25Oct2025 17:05:46.395] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-29, y=75, z=850} BlockPos{x=-28, y=73, z=850}
+[25Oct2025 17:05:46.444] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-29, y=75, z=850} BlockPos{x=-28, y=73, z=850}
+[25Oct2025 17:05:46.499] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-29, y=75, z=850} BlockPos{x=-28, y=73, z=850}
+[25Oct2025 17:05:46.547] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-29, y=75, z=850} BlockPos{x=-28, y=73, z=850}
+[25Oct2025 17:05:46.597] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-29, y=75, z=850} BlockPos{x=-28, y=73, z=850}
+[25Oct2025 17:06:18.544] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[25Oct2025 17:06:32.612] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=31, y=66, z=843}
+[25Oct2025 17:06:32.666] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=31, y=66, z=843}
+[25Oct2025 17:06:49.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 burned to death
+[25Oct2025 17:06:49.762] [Server thread/INFO] [tombstone/]: The player angel1965 has successfully been saved
+[25Oct2025 17:07:29.862] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=42, y=48, z=855} BlockPos{x=44, y=49, z=855}
+[25Oct2025 17:07:46.659] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=53, y=53, z=857} BlockPos{x=51, y=51, z=857}
+[25Oct2025 17:07:46.709] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=53, y=53, z=857} BlockPos{x=51, y=51, z=857}
+[25Oct2025 17:07:46.762] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=53, y=53, z=857} BlockPos{x=51, y=51, z=857}
+[25Oct2025 17:08:12.458] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:12.508] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:12.558] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:12.609] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:12.659] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:12.710] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:12.760] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:12.812] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:12.863] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=51, y=68, z=856} BlockPos{x=50, y=68, z=856}
+[25Oct2025 17:08:34.063] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=43, y=72, z=856} BlockPos{x=25, y=77, z=841}
+[25Oct2025 17:08:34.114] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=43, y=72, z=856} BlockPos{x=25, y=77, z=841}
+[25Oct2025 17:08:34.164] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=24, y=78, z=841} BlockPos{x=25, y=77, z=841}
+[25Oct2025 17:08:58.964] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=8, y=73, z=822} BlockPos{x=6, y=73, z=822}
+[25Oct2025 17:08:59.014] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=8, y=73, z=822} BlockPos{x=6, y=73, z=822}
+[25Oct2025 17:08:59.065] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=8, y=73, z=822} BlockPos{x=6, y=73, z=822}
+[25Oct2025 17:08:59.115] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=8, y=73, z=822} BlockPos{x=6, y=73, z=822}
+[25Oct2025 17:08:59.561] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=4, y=75, z=822} BlockPos{x=3, y=74, z=822}
+[25Oct2025 17:09:14.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Reloading!]
+[25Oct2025 17:09:15.302] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/compat/ae2/deepslate_quartz_ore
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:deepslate_quartz_ore'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%2372!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:240) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[25Oct2025 17:09:15.322] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[25Oct2025 17:09:15.328] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[25Oct2025 17:09:15.355] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[25Oct2025 17:09:15.366] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/compat/ae2/quartz_ore
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:quartz_ore'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%2372!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:240) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[25Oct2025 17:09:15.372] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[25Oct2025 17:09:15.402] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[25Oct2025 17:09:15.519] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[25Oct2025 17:09:15.519] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[25Oct2025 17:09:15.523] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[25Oct2025 17:09:15.526] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 59 recipes
+[25Oct2025 17:09:15.529] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[25Oct2025 17:09:15.878] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[25Oct2025 17:09:15.941] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:adventure/craft_decorated_pot_using_only_sherds: Invalid criterion trigger: minecraft:recipe_crafted
+[25Oct2025 17:09:15.995] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5102 advancements
+[25Oct2025 17:09:15.997] [Server thread/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[25Oct2025 17:09:15.998] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Structure Repaletter Manager has loaded 0 repaletters
+[25Oct2025 17:09:15.998] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
+[25Oct2025 17:09:15.998] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[25Oct2025 17:09:15.999] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[25Oct2025 17:09:18.507] [Server thread/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[25Oct2025 17:09:18.540] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5b9b8151
+[25Oct2025 17:09:18.544] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@73c4587e
+[25Oct2025 17:09:18.547] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@e0eba2c
+[25Oct2025 17:09:18.549] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3667d75d
+[25Oct2025 17:09:18.559] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@74bec0f4
+[25Oct2025 17:09:18.572] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7d3032c1
+[25Oct2025 17:09:18.577] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59da1d91
+[25Oct2025 17:09:18.584] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5df32a45
+[25Oct2025 17:09:18.589] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3d0a5b2a
+[25Oct2025 17:09:18.592] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@14263e4a
+[25Oct2025 17:09:18.594] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59b1aa5c
+[25Oct2025 17:09:18.609] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4036ms or 80 ticks behind
+[25Oct2025 17:09:32.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Reloading!]
+[25Oct2025 17:09:33.444] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/compat/ae2/deepslate_quartz_ore
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:deepslate_quartz_ore'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%2372!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:240) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[25Oct2025 17:09:33.460] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[25Oct2025 17:09:33.465] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[25Oct2025 17:09:33.491] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[25Oct2025 17:09:33.499] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/compat/ae2/quartz_ore
+com.google.gson.JsonSyntaxException: Unknown item 'ae2:quartz_ore'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:275) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:274) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:142) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:154) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at com.simibubi.create.content.processing.recipe.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:21) ~[create-1.19.2-0.5.1.i.jar%23174!/:0.5.1.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.19.2-43.4.2-universal.jar%23226!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%2372!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:240) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23221!/:?]
+	at java.lang.Thread.run(Thread.java:840) [?:?]
+[25Oct2025 17:09:33.503] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[25Oct2025 17:09:33.528] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[25Oct2025 17:09:33.549] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[25Oct2025 17:09:33.550] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[25Oct2025 17:09:33.554] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[25Oct2025 17:09:33.558] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 59 recipes
+[25Oct2025 17:09:33.559] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[25Oct2025 17:09:33.921] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[25Oct2025 17:09:33.971] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement minecraft:adventure/craft_decorated_pot_using_only_sherds: Invalid criterion trigger: minecraft:recipe_crafted
+[25Oct2025 17:09:34.020] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5102 advancements
+[25Oct2025 17:09:34.023] [Server thread/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[25Oct2025 17:09:34.026] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Structure Repaletter Manager has loaded 0 repaletters
+[25Oct2025 17:09:34.026] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
+[25Oct2025 17:09:34.026] [Server thread/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[25Oct2025 17:09:34.026] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[25Oct2025 17:09:36.417] [Server thread/INFO] [evilcraft/]: 19 Broom modifiers can be applied!
+[25Oct2025 17:09:36.449] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5b9b8151
+[25Oct2025 17:09:36.453] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@73c4587e
+[25Oct2025 17:09:36.455] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@e0eba2c
+[25Oct2025 17:09:36.458] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3667d75d
+[25Oct2025 17:09:36.468] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@74bec0f4
+[25Oct2025 17:09:36.478] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7d3032c1
+[25Oct2025 17:09:36.482] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59da1d91
+[25Oct2025 17:09:36.489] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5df32a45
+[25Oct2025 17:09:36.492] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@3d0a5b2a
+[25Oct2025 17:09:36.495] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@14263e4a
+[25Oct2025 17:09:36.498] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@59b1aa5c
+[25Oct2025 17:09:37.039] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3465ms or 69 ticks behind
+[25Oct2025 17:10:08.065] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2591ms or 51 ticks behind
+[25Oct2025 17:12:13.976] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[25Oct2025 17:12:42.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:13:09.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 17:18:24.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:18:46.461] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2388ms or 47 ticks behind
+[25Oct2025 17:19:34.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 17:19:55.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:20:02.235] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2461ms or 49 ticks behind
+[25Oct2025 17:21:27.425] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2601ms or 52 ticks behind
+[25Oct2025 17:22:27.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 17:22:58.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:22:59.046] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: David lost connection: Disconnected
+[25Oct2025 17:22:59.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: David left the game
+[25Oct2025 17:23:53.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: angel1965 has completed the challenge [Cover Me in Debris]
+[25Oct2025 17:24:21.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 17:24:44.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:27:50.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh has made the advancement [Battle Hardened]
+[25Oct2025 17:27:57.806] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2433ms or 48 ticks behind
+[25Oct2025 17:29:23.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 17:32:55.944] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/104957, l='ServerLevel[world]', x=107.96, y=87.01, z=5963.63] died: Dinnerbone was slain by angel1965
+[25Oct2025 17:33:03.896] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/104956, l='ServerLevel[world]', x=108.86, y=87.01, z=5967.78] died: Dinnerbone was slain by angel1965
+[25Oct2025 17:33:06.203] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/104869, l='ServerLevel[world]', x=108.17, y=87.01, z=5968.39] died: Dinnerbone was slain by angel1965
+[25Oct2025 17:35:29.035] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/106565, l='ServerLevel[world]', x=112.50, y=66.50, z=5966.50]
+[25Oct2025 17:37:05.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:37:10.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Creative Mode]
+[25Oct2025 17:47:40.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:50:09.840] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/112045, l='ServerLevel[world]', x=113.47, y=95.01, z=5944.20] died: Dinnerbone was shot by Dinnerbone
+[25Oct2025 17:50:10.875] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/112288, l='ServerLevel[world]', x=111.75, y=95.01, z=5944.02] died: Dinnerbone was slain by angel1965
+[25Oct2025 17:50:14.900] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/112427, l='ServerLevel[world]', x=112.16, y=95.01, z=5946.31] died: Dinnerbone was shot by Dinnerbone
+[25Oct2025 17:50:36.569] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/112428, l='ServerLevel[world]', x=115.03, y=95.01, z=5943.56] died: Dinnerbone was slain by angel1965
+[25Oct2025 17:51:00.124] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/112920, l='ServerLevel[world]', x=101.00, y=95.01, z=5962.98] died: Dinnerbone was slain by angel1965
+[25Oct2025 17:51:00.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 17:51:05.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:51:13.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 17:51:17.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:52:30.735] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/113871, l='ServerLevel[world]', x=101.50, y=99.50, z=5962.50]
+[25Oct2025 17:53:04.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 17:53:05.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:53:43.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 17:53:47.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:53:51.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Spectator Mode]
+[25Oct2025 17:53:54.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [abeldh: Set own game mode to Survival Mode]
+[25Oct2025 17:58:41.138] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: abeldh lost connection: Disconnected
+[25Oct2025 17:58:41.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: abeldh left the game
+[25Oct2025 17:58:52.934] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Dinnerbone'/116933, l='ServerLevel[world]', x=111.54, y=127.01, z=5952.00] died: Dinnerbone was shot by Dinnerbone
+[25Oct2025 18:00:11.829] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: FallingBlockEntity['Falling Block'/118162, l='ServerLevel[world]', x=96.50, y=130.50, z=5961.50]
+[25Oct2025 18:02:45.899] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1b0fce09
+[25Oct2025 18:05:42.513] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2689ms or 53 ticks behind
